@@ -1,13 +1,1 @@
-function copyrightYear(element, startYear) {
-  const el = document.getElementById(element);
-  
-  let date = new Date(),
-      year = date.getFullYear();
-  
-  if (year == startYear) {
-    el.innerHTML = year;
-    el.datetime = year;
-  } else {
-    el.innerHTML = startYear + "–" + year;
-  }
-}
+function copyrightYear(e,n){let t=document.getElementById(e),i=new Date().getFullYear();i==n?(t.innerHTML=i,t.datetime=i):t.innerHTML=n+"–"+i}
