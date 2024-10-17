@@ -9,6 +9,5 @@ function copyrightYear(element, startYear) {
     el.datetime = year;
   } else {
     el.innerHTML = startYear + "–" + year;
-    el.datetime = startYear + "–" + year;
   }
 }
